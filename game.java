@@ -3,7 +3,7 @@ import java.util.Random;
 public class RockPaperScissorGame {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter 0 for Roch,1 for Paper,2 for Scissor :");
+        System.out.println("Enter 0 for Rock,1 for Paper,2 for Scissor :");
         int userInput = sc.nextInt();
 
         Random random = new Random();
